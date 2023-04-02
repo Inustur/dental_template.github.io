@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--
+Name: Vinh Tien Pham
+NSID: tip434
+Student number: 11290849
+Course: CMPT_281_01
+-->
+<html>
+<head>
+	<title>2nd Avenue Dental</title>
+	<meta charset="UTR-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="descciption" content="A website for 2nd avenue dental">
+	<meta name="keywords" content ="CMPT281, assigment2, 2nd avenue, dental">
+	<meta name="author" content="Vinh Pham">
+	<link rel="stylesheet" href="homestyle.css" />
+	<link rel="stylesheet" href="navbar_style.css" />
+	<link rel="stylesheet" href="slidegallery.css" />
+	<link rel="stylesheet" href="footerstyle.css" />
+	<link rel="icon" type="image/x-icon" href="favicon.ico">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="topnav">
+		<a class="active" href="home.html">Home</a>
+		<a href="about.html">About</a>
+		<a href="Service.html">Service</a>
+		<a href="contact.html">Contact</a>
+		<a class="logo"> <b class="logo-color1">2nd Avenue</b> <b class="logo-color2">Dental</b></a>
+		<a class="booking" href="booking.html">Request an Appointment</a>
+	</div>
+	
+	<div class="bg-image"></div>
+
+	<div class="bg-text">
+		<h2>Welcome to</h2>
+		<h1>2nd Avenue Dental</h1>
+		<p>Ready to gain that confident smile back?</p>
+		<button onclick="window.location.href='booking.html';">Book Appointment</button>
+	</div>
+
+	<!-- Container for the image gallery -->
+	<div class="container">
+
+		<!-- Full-width images with number text -->
+		<div class="mySlides">
+			<div class="numbertext">
+			<button onclick="window.location.href='about.html';">About Us</button>
+			</div>
+			<img src="About.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">
+			<button onclick="window.location.href='Service.html';">Service</a></button>
+			</div>
+			<img src="Services.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">
+			<button onclick="window.location.href='contact.html';">Contact Us</button>
+			</div>
+			<img src="Contact.jpg"jp style="width:100%">
+		</div>
+
+		<div class="mySlides">
+			<div class="numbertext">
+			<button onclick="window.location.href='booking.html';">Booking</button>
+			</div>
+			<img src="Booking.jpg" style="width:100%">
+		</div>
+		
+		 <!-- Next and previous buttons -->
+		<a class="prev" onclick="plusSlides(-1)"><script src="slidegallery_func.js"></script></a>
+		<a class="next" onclick="plusSlides(1)"><script src="slidegallery_func.js"></script></a>
+
+		<!-- Thumbnail images -->
+		<div class="row">
+			<div class="column">
+				<img class="demo cursor" src="About.jpg" style="width:100%" onclick="currentSlide(1)" alt="About Us">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Services.jpg" style="width:100%" onclick="currentSlide(2)" alt="Service">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Contact.jpg" style="width:100%" onclick="currentSlide(3)" alt="Contact">
+			</div>
+			<div class="column">
+				<img class="demo cursor" src="Booking.jpg" style="width:100%" onclick="currentSlide(4)" alt="Request an Appointment">
+			</div>
+		</div>
+	</div>
+</body>
+
+<footer>
+	<div class="footer">
+		<div class="row">
+			<a href="#"><i class="fa fa-facebook"></i></a>
+			<a href="#"><i class="fa fa-instagram"></i></a>
+			<a href="#"><i class="fa fa-youtube"></i></a>
+			<a href="#"><i class="fa fa-twitter"></i></a>
+		</div>
+
+		<div class="row">
+			<ul>
+				<li><a href="contact.html">Contact us</a></li>
+				<li><a href="Service.html">Our Services</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="#">Privacy</a></li>
+				<li><a href="booking.html"><button>Booking</button></a></li>
+			</ul>
+		</div>
+
+		<div class="row">
+			2nd Avenue Dental, Located as <b>address: <a>XXX 2nd Avenue, Saskatoon, Saskatchewan</a></b>
+		</div>
+		
+		<div class="row">
+			Phone: <a>+1-306-XXX-XXXX<a>
+		</div>
+		
+		<div class="row">
+			Email: <a>2ndavedental@gmail.com<a>
+		</div>
+	</div>
+</footer>

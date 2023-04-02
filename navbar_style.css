@@ -1,0 +1,66 @@
+/*
+Name: Vinh Tien Pham
+NSID: tip434
+Course: CMPT_281(01)
+Student number: 11290849
+*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: #000;
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+	transition:all 1s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color:#1e1e1e;
+	color: #f3f3f3;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: #e28743;
+	color: white;
+}
+
+/*request an booking and logo options are on the right of navigation bar*/
+.topnav .booking{
+	float: right;
+}
+
+.topnav .logo{
+	background-color: #323270;
+	float: right;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  
+}
+
+/*style the logo*/
+.logo{
+	font-family: 'Brush Script MT', cursive;
+}
+
+.logo .logo-color1{
+	color:yellow;
+}
+
+.logo .logo-color2{
+	color:pink;
+}

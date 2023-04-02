@@ -1,0 +1,56 @@
+/*
+Name: Vinh Tien Pham
+NSID: tip434
+Course: CMPT_281(01)
+Student number: 11290849
+*/
+
+body, html {
+	height: 100%;
+	background-color:#F0EFEE;
+	font-family:'Brush Script MT', cursive;
+	text-align:center;
+}
+
+.contact-container{
+	display: flex;
+	justify-content:left;
+}
+
+.infor{
+	background-image: url('general-bg.png');
+	color: white;
+	border-radius: 16px;
+}
+
+.map{
+	border-radius:16px;
+}
+
+.infor h1{
+	font-size:40px;
+}
+
+/*style button*/
+.infor button{
+	background-color: #e28743;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	opacity: 95%;
+	border-radius: 18px;
+}
+
+.infor button:hover{
+	background-color: #E69345;
+}
+
+.infor .booking{
+	
+	margin-top: 30px;
+	font-size: 36px;
+}
